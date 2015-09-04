@@ -13,17 +13,18 @@ Comparison with Lempel-Ziv Encoding :
        previously-encountered strings can be substituted by their index in 
        the dictionary to reduce the amount of information transmitted.
 
-    In MTF encoding is done as alphabets appear in the   
-    symbol table and there is no concept of substitution in case of  
-    previously-encountered string. We just move the current char to front of
-    the symbol table as discussed earlier.
+       In MTF encoding is done as alphabets appear in the   
+       symbol table and there is no concept of substitution in case of  
+       previously-encountered string. We just move the current char to front of
+       the symbol table as discussed earlier.
 
 
 6.2.   Algorithmic Analysis :
 
       Code for Lempel-Ziv below would make things much easier :
 
- def compress(uncompressed):
+    
+  def compress(uncompressed):
     
  
     
