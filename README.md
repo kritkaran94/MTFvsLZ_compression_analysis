@@ -61,19 +61,28 @@ Now for MTF the complexity is O(nk) where n is the length of the string and k is
 
 6.3. Run Time for the same input :
 
-  
-Time
-Lempel Ziv
-MTF
-Real
-0m0.032s
-0m0.045s
-Usr
-0m0.018s
-0m0.016s
-Sys
-0m0.011s
-0m0.055s
+<table style="width:100%">
+  <tr>
+    <th>Time</th>
+    <th>Lempel Ziv</th> 
+    <th>MTF</th>
+  </tr>
+  <tr>
+    <td>Real</td>
+    <td>0m0.032s</td> 
+    <td>0m0.045s</td>
+  </tr>
+  <tr>
+    <td>User</td>
+    <td>0m0.018s</td> 
+    <td>0m0.016s</td>
+  </tr>
+  <tr>
+    <td>Sys</td>
+    <td>0m0.011s</td> 
+    <td>0m0.055s</td>
+  </tr>
+</table>
 
  Note : ** Although the above is a rough estimate. Several tests  
                         have proved that Lempel Ziv is faster than MTF.
